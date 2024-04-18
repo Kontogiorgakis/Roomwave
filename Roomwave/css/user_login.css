@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', cursive;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../images/setup_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav {
+    height: 80px;
+    padding: 0px 100px;
+    background: linear-gradient(90deg, #795379 0%, rgba(75, 62, 91, 1) 100%);
+}
+.nav .name {
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+}
+.nav i, .nav a {
+    color: white;
+    font-size: 20px;
+}
+
+.form-container {
+    width: 50%;
+    height: 50%;
+
+    margin-top: 6%;
+    padding: 2% 6%;
+    
+
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    
+    background: rgba(102, 86, 113, 0.44);
+    box-shadow: 0px 4px 10px #4D3F5D;
+    border: 5px solid #4D3F5D;
+    border-radius: 20px;
+}
+.form-container .name {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'Great Vibes', cursive;
+}
+.form-container .form-element {
+    position: relative; /* gia to form-icon */
+}
+.form-container .form-element .form-icon {
+    position: absolute;
+    top: calc(50%);
+    left: 1.25rem;
+    color: #302130;
+}
+
+.input, .submit {
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.input {
+    width: 100%;
+    height: 7vh;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    color: #302130;
+    box-shadow: 0px 4px 4px #302130;
+}
+.input:focus {
+    scale: 1.1;
+    border: 5px solid #724e75;
+    box-shadow: 0px 4px 4px #724e75;
+}
+.submit {
+    width: 85%;
+    height: 5vh;
+    color: white;
+    background-color: #4d3f5d;
+}
+.submit:hover {
+    scale: 0.9;
+    transition: 1s;
+    background: linear-gradient(90deg, #795379 0%, rgba(75, 62, 91, 1) 100%);
+}

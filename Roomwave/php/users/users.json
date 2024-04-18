@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "username":"user1",
+        "password":"drenoviadis123",
+        "first_name":"Kostas",
+        "last_name":"Drenoviadis",
+        "email":"kdren2001@gmail.com",
+        "mobile":"6980855243",
+        "birthdate":"28 \/ 5 \/ 01",
+        "admin":0
+    },
+
+    {
+        "id":2,
+        "username":"user2",
+        "password":"eleni123",
+        "first_name":"Eleni",
+        "last_name":"Lagoudaki",
+        "email":"elenilag@gmail.com",
+        "mobile":"6975556038",
+        "birthdate":"8 \/ 2 \/ 02",
+        "admin":0
+    },
+
+    {
+        "id":3,
+        "username":"admin123",
+        "password":"admin123",
+        "first_name":"Nikos",
+        "last_name":"Eustathakis",
+        "email":"nick1999@gmail.com",
+        "mobile":"6983356785",
+        "birthdate":"19 \/ 12 \/ 99",
+        "admin":1
+    }
+
+]
