@@ -25,3 +25,15 @@ Installation instructions:
 3. Start the Apache server from XAMPP and click "admin" to open the server in the Firefox browser.
 4. Modify the address http://localhost/dashboard as follows: http://localhost/Roomwave/user_login.html if you wish to log in as a user, or http://localhost/Roomwave/admin.html if you prefer to log in as an admin.
 5. Assume that both users and admins have registered on the platform, and their credentials are stored in JSON format at the path: http://localhost/Roomwave/php/users/users.json.
+
+
+## Contributing
+
+
+Contributions are welcome! If you have any suggestions or improvements for Roomwave, please submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
+
+
+## License
+
+
+This project is licensed under the [MIT License](LICENSE).
