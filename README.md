@@ -10,7 +10,7 @@ Advanced reservation system enabling customers to book building hall spaces and 
 
 ## Screenshots
 ![Screen1](Screenshots/desktop.png)
-
+![Screen2](Screenshots/characteristics.png)
 
 
 ## Installation
